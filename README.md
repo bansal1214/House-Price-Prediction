@@ -1,27 +1,42 @@
-# House-Price-Prediction
-House Price Prediction Analysis
 
-## Following are the steps performed:
+# House Price Prediction Using Machine Learning
 
-# 1. Exploratory Data Analysis
-   #### Univariate Analysis
-   #### Cat Features - Barplot
-  #### Con features - Distplot
+Goal
 
-  ## Bivariate Analysis
-   #### Con vs Con - Scatterplot, Correlation Heatmap
-   #### Cat vs Con - Boxplot
+    To predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable
 
-# 2. Preprocessing with Sklearn pipelines
-  #### Feature selection pipeline - Cat Ordinal Encoding, Con StandardScaler
-  #### Final Pipeline - Cat OnehotEncoding, Con StandardScaler
+Metric
 
-# 3. Feature Selection
-  #### Backward Elimination process base model LinearRegression
+    Submissions are evaluated on Mean-Squared-Error,Root-Mean-Squared-Error, Mean Absolute Error, R2 (MSE, RMSE, MAE, R2).
 
-# 4. Final Model Selected
-  #### Lasso Model with alpha = 190.0
 
-# 5. Predicted with pre.transform and predictions Done
+    Submission File Format
+
+      Id,SalePrice
+      1461,169000.1
+      1462,187724.1233
+      1463,175221
+
+Below data science concepts are used in this project
+
+       1. Data loading and cleaning
+       2. Exploratory Data Analysis
+       3. Feature engineering
+       4. Gridsearchcv for hyperparameter tunning
+       5. K fold cross validation
+
+Technology and tools used in this project
+     
+       1. Python
+       2. Numpy and Pandas for data cleaning
+       3. Matplotlib and Seaborn for data visualization
+       4. Sklearn for model building
+       5. VS Code for training model
+
+
+Dataset Reference
+
+    Uploaded csv file in this repository for training and testing data       
+
 
 
